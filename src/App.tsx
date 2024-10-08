@@ -1,3 +1,9 @@
+import Meetings from "./Meetings";
+
 export const App = () => {
-  return <div>Hello, candidate!</div>;
+  return (
+    <div className="app">
+      <Meetings />
+    </div>
+  );
 };
